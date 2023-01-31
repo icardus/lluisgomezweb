@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+
+<!-- Basic Page Needs
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<meta charset="utf-8">
+<title>Lluís Gómez</title>
+<meta name="description" content="Lluís Gómez és un reconegut banjista, violinista i mandolinista. Lluís Gómez es un reconocido banjista, violinista y mandolinista. Lluís Gómez is a renowned banjo player, violinist and mandolin player.">
+<meta name="author" content="Marc Xicola, Joanra Paton">
+
+<!-- Mobile Specific Metas
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- FONT
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Rubik:300,500,700" rel="stylesheet">
+
+<!-- CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<link rel="stylesheet" href="css/lluis2019.css">
+
+<!-- Favicon
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<link rel="icon" type="image/png" href="images/favicon.png">
+
+<!-- JQuery
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<script type="text/javascript">
+
+	function parallax(){
+		var menuHeight = $('.menuFixed .menuItems').outerHeight();
+		$('.whiteFixed').height(menuHeight);
+	}
+
+	$(window).scroll(function(e){
+		parallax();
+	});
+
+	parallax();
+
+	function scrollToAnchor(aid){
+		var aTag = $("a[name='"+ aid +"']");
+		$('html,body').animate({scrollTop: aTag.offset().top - 60},'slow');
+	}
+
+</script>
+
+</head>
+
+<body>
+
+	<div class="icontent">
+
+		<div class="whiteFixed"></div>
+		<div class="menuFixed">
+			<div class="logo"><a href="index-es.html">LLUÍS GÓMEZ</a></div>
+			<div class="menuItems">
+				<a href="biografia-es.html">BIOGRAFÍA</a>
+				<a href="discografia-es.html">DISCOGRAFÍA</a>
+				<a href="agenda-es.html" class="active">AGENDA</a>
+				<a href="tenda-es.html">TIENDA</a>
+				<a href="classes-es.html">CLASES</a>
+				<a href="projectes-es.html">PROYECTOS</a>
+<a href="flamengrass-es.html">FLAMENGRASS</a>
+				<a href="contacte-es.html">CONTACTO</a>
+			</div>
+		</div>
+
+		<div class="imgFull">
+			<a href="#" onclick="scrollToAnchor('agenda'); return(false);"><img src="images/foto.jpg" />
+			<img class="imgTitle" src="images/agenda.png" width="200" /></a>
+		</div>
+		
+		<div class="textBox">
+			<a id="agenda" name="agenda"></a><iframe src="https://www.google.com/calendar/embed?title=BANJO%20MUSIC&amp;showTitle=0&amp;height=500&amp;wkst=2&amp;bgcolor=%23333333&amp;src=proomcsitfg0og7sd8odotqckc%40group.calendar.google.com&amp;color=%23AB8B00&amp;src=es.spain%23holiday%40group.v.calendar.google.com&amp;color=%23333333&amp;ctz=Europe%2FMadrid" frameborder="0" scrolling="no" style="border-width: 0; width: 100%; height: 500px;"s></iframe>
+		</div>
+
+		<div class="peu">
+			<a href="index-es.html"><img src="images/peu.png" width="54" height="54" /></a>
+		</div>
+	</div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

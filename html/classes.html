@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+
+<!-- Basic Page Needs
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<meta charset="utf-8">
+<title>Lluís Gómez</title>
+<meta name="description" content="Lluís Gómez és un reconegut banjista, violinista i mandolinista. Lluís Gómez es un reconocido banjista, violinista y mandolinista. Lluís Gómez is a renowned banjo player, violinist and mandolin player.">
+<meta name="author" content="Marc Xicola, Joanra Paton">
+
+<!-- Mobile Specific Metas
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- FONT
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Rubik:300,500,700" rel="stylesheet">
+
+<!-- CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<link rel="stylesheet" href="css/lluis2019.css">
+
+<!-- Favicon
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<link rel="icon" type="image/png" href="images/favicon.png">
+
+<!-- JQuery
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<script type="text/javascript">
+
+	function parallax(){
+		var menuHeight = $('.menuFixed .menuItems').outerHeight();
+		$('.whiteFixed').height(menuHeight);
+	}
+
+	$(window).scroll(function(e){
+		parallax();
+	});
+
+	parallax();
+
+	function scrollToAnchor(aid){
+		var aTag = $("a[name='"+ aid +"']");
+		$('html,body').animate({scrollTop: aTag.offset().top - 60},'slow');
+	}
+
+</script>
+
+</head>
+
+<body>
+
+	<div class="icontent">
+
+		<div class="whiteFixed"></div>
+		<div class="menuFixed">
+			<div class="logo"><a href="index.html">LLUÍS GÓMEZ</a></div>
+			<div class="menuItems">
+				<a href="biografia.html">BIOGRAFIA</a>
+				<a href="discografia.html">DISCOGRAFIA</a>
+				<a href="agenda.html">AGENDA</a>
+				<a href="tenda.html">TENDA</a>
+				<a href="classes.html" class="active">CLASSES</a>
+				<a href="projectes.html">PROJECTES</a>
+<a href="flamengrass.html">FLAMENGRASS</a>
+				<a href="contacte.html">CONTACTE</a>
+			</div>
+		</div>
+
+		<div class="imgFull">
+			<h1 class="rubikl"><strong>BANJO</strong>VIOLÍ/FIDDLE<strong>MANDOLINA</strong></h1>
+			<a href="#" onclick="scrollToAnchor('classes'); return(false);"><img src="images/fotoc.jpg" />
+			<img class="imgTitle w270" src="images/classes.png" /></a>
+		</div>
+		
+		<div class="textBox">
+			<a id="classes" name="classes"></a>
+			<div class="textRight">
+				<!--<p><strong>Casa Luthier</strong><br />
+				C/Balmes 53<br />
+				Barcelona<br />
+				+34 934 54 15 78</p>-->
+
+				<p><strong><span style="font-size: 1.2em;">Campus</span><br />
+				Barcelona Bluegrass Camp</strong><br />
+				<a href="http://alrasfestival.com/es/bluegrass-camp" target="_blank">http://alrasfestival.com/es/bluegrass-camp</a><br />&nbsp;</p>
+				<p><strong>Musique Acoustique</strong><br />
+				<a href="http://www.musiqueacoustique.org" target="_blank">http://www.musiqueacoustique.org</a></p>
+			</div>
+			<div class="textLeft">
+				<p><strong>Classes privades</strong><br />
+				C/Gibraltar 6-8 3º 1ª<br />
+				08330 Premià de Mar<br />
+				Barcelona<br />
+				+34 617 190 385</p>
+				
+				<!--<p><strong>El Taller de Música de Premià de Mar</strong><br />
+				C/Camí Ral 74<br />
+				08330 Premià de Mar<br />
+				Barcelona<br />
+				+34 754 84 39<br />
+				<a href="http://www.tallerdemusicapremia.com" target="_blank">http://www.tallerdemusicapremia.com</a></p>-->
+
+				<h3><a href="https://join.skype.com/invite/n5FmkbdYcQT7" target="_blank" title="Classes on line" style="text-decoration: none;">Classes on line &nbsp;<img src="images/Skype.png" width="36" alt="Classes on line" style="position: relative; top: 10px;" /></a></h3>
+			</div>
+		</div>
+
+		<div class="peu">
+			<a href="index.html"><img src="images/peu.png" width="54" height="54" /></a>
+		</div>
+	</div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

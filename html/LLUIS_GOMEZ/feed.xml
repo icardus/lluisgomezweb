@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <id>urn:iweb:C9FDA13C-1404-4F57-93F0-9C242079594F</id>
+ <title>Page list Atom feed</title>
+ <updated>2015-02-09T20:04:43+01:00</updated>
+ <link rel="self" href="feed.xml"/>
+ <generator>iWeb</generator>
+ <author>
+  <name>iWeb</name>
+ </author>
+ <entry>
+  <id>urn:iweb:439AF8D4-A741-4694-8570-CB5C00EECC74</id>
+  <title>LLUIS GOMEZ</title>
+  <title xmlns="urn:iweb:">LLUIS GOMEZ</title>
+  <in-navbar xmlns="urn:iweb:">439AF8D4-A741-4694-8570-CB5C00EECC74</in-navbar>
+  <link rel="alternate" href="LLUIS_GOMEZ.html"/>
+  <updated>2015-02-09T20:04:43.001+01:00</updated>
+  <content>LLUIS GOMEZ</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:2832265C-0FBA-4839-A041-F8BDD47E3D1C</id>
+  <title>AGENDA</title>
+  <title xmlns="urn:iweb:">AGENDA</title>
+  <in-navbar xmlns="urn:iweb:">2832265C-0FBA-4839-A041-F8BDD47E3D1C</in-navbar>
+  <link rel="alternate" href="AGENDA.html"/>
+  <updated>2015-02-09T20:04:43.002+01:00</updated>
+  <content>AGENDA</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:3FC2E992-0F0E-4DBA-BA26-4BC25F5307A1</id>
+  <title>Inicio</title>
+  <title xmlns="urn:iweb:">Inicio</title>
+  <in-navbar xmlns="urn:iweb:">3FC2E992-0F0E-4DBA-BA26-4BC25F5307A1</in-navbar>
+  <link rel="alternate" href="Inicio.html"/>
+  <updated>2015-02-09T20:04:43.003+01:00</updated>
+  <content>Inicio</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:04824F5D-71AB-49D3-9041-B640E7969550</id>
+  <title>Biografía Cast</title>
+  <title xmlns="urn:iweb:">Biografía Cast</title>
+  <in-navbar xmlns="urn:iweb:">04824F5D-71AB-49D3-9041-B640E7969550</in-navbar>
+  <link rel="alternate" href="Biografia_Cast.html"/>
+  <updated>2015-02-09T20:04:43.004+01:00</updated>
+  <content>Biografía Cast</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:B35114B1-7CB1-42B3-A2DF-0A3B6E6A475E</id>
+  <title>Proyectos Cast</title>
+  <title xmlns="urn:iweb:">Proyectos Cast</title>
+  <in-navbar xmlns="urn:iweb:">B35114B1-7CB1-42B3-A2DF-0A3B6E6A475E</in-navbar>
+  <link rel="alternate" href="Proyectos_Cast.html"/>
+  <updated>2015-02-09T20:04:43.005+01:00</updated>
+  <content>Proyectos Cast</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:70CAFE84-C9EC-4A0C-8ABC-636E4ADC10CD</id>
+  <title>Swing 42 Cast</title>
+  <title xmlns="urn:iweb:">Swing 42 Cast</title>
+  <in-navbar xmlns="urn:iweb:">70CAFE84-C9EC-4A0C-8ABC-636E4ADC10CD</in-navbar>
+  <link rel="alternate" href="Swing_42_Cast.html"/>
+  <updated>2015-02-09T20:04:43.006+01:00</updated>
+  <content>Swing 42 Cast</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:E74DCD5F-4704-47AD-946A-0511E71483C8</id>
+  <title>The Damned Hellbillies Cast</title>
+  <title xmlns="urn:iweb:">The Damned Hellbillies Cast</title>
+  <in-navbar xmlns="urn:iweb:">E74DCD5F-4704-47AD-946A-0511E71483C8</in-navbar>
+  <link rel="alternate" href="The_Damned_Hellbillies_Cast.html"/>
+  <updated>2015-02-09T20:04:43.007+01:00</updated>
+  <content>The Damned Hellbillies Cast</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:605C68A4-4A75-4D6B-9631-360C7DB1F0A7</id>
+  <title>Grazztrio Cast</title>
+  <title xmlns="urn:iweb:">Grazztrio Cast</title>
+  <in-navbar xmlns="urn:iweb:">605C68A4-4A75-4D6B-9631-360C7DB1F0A7</in-navbar>
+  <link rel="alternate" href="Grazztrio_Cast.html"/>
+  <updated>2015-02-09T20:04:43.008+01:00</updated>
+  <content>Grazztrio Cast</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:90EDB004-84BB-4126-A9FE-CDFDF311FBD0</id>
+  <title>Contacto</title>
+  <title xmlns="urn:iweb:">Contacto</title>
+  <in-navbar xmlns="urn:iweb:">90EDB004-84BB-4126-A9FE-CDFDF311FBD0</in-navbar>
+  <link rel="alternate" href="Contacto.html"/>
+  <updated>2015-02-09T20:04:43.009+01:00</updated>
+  <content>Contacto</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:64929217-0171-40DF-800A-60E4782E2958</id>
+  <title>Tienda</title>
+  <title xmlns="urn:iweb:">Tienda</title>
+  <in-navbar xmlns="urn:iweb:">64929217-0171-40DF-800A-60E4782E2958</in-navbar>
+  <link rel="alternate" href="Tienda.html"/>
+  <updated>2015-02-09T20:04:43.010+01:00</updated>
+  <content>Tienda</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:21886B2E-964D-4D03-BA47-B77C6DBD3BC3</id>
+  <title>Discografía</title>
+  <title xmlns="urn:iweb:">Discografía</title>
+  <in-navbar xmlns="urn:iweb:">21886B2E-964D-4D03-BA47-B77C6DBD3BC3</in-navbar>
+  <link rel="alternate" href="Discografia.html"/>
+  <updated>2015-02-09T20:04:43.011+01:00</updated>
+  <content>Discografía</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:437788DE-6135-4466-95CB-9DB93306FF02</id>
+  <title>Banjos &amp; Fiddles Cast</title>
+  <title xmlns="urn:iweb:">Banjos &amp; Fiddles Cast</title>
+  <in-navbar xmlns="urn:iweb:">437788DE-6135-4466-95CB-9DB93306FF02</in-navbar>
+  <link rel="alternate" href="Banjos_%26_Fiddles_Cast.html"/>
+  <updated>2015-02-09T20:04:43.012+01:00</updated>
+  <content>Banjos &amp; Fiddles Cast</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:88CC760F-5450-4A6B-BD82-696DCAB71C3D</id>
+  <title>Clases Particulares</title>
+  <title xmlns="urn:iweb:">Clases Particulares</title>
+  <in-navbar xmlns="urn:iweb:">88CC760F-5450-4A6B-BD82-696DCAB71C3D</in-navbar>
+  <link rel="alternate" href="Clases_Particulares.html"/>
+  <updated>2015-02-09T20:04:43.013+01:00</updated>
+  <content>Clases Particulares</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:CECCE787-BF3A-481E-9F84-0BA796C803C5</id>
+  <title>Mapa1</title>
+  <title xmlns="urn:iweb:">Mapa1</title>
+  <in-navbar xmlns="urn:iweb:">CECCE787-BF3A-481E-9F84-0BA796C803C5</in-navbar>
+  <link rel="alternate" href="Mapa1.html"/>
+  <updated>2015-02-09T20:04:43.014+01:00</updated>
+  <content>Mapa1</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:61F87F26-7E5D-4C2D-8B85-C13607851A68</id>
+  <title>Mapa2</title>
+  <title xmlns="urn:iweb:">Mapa2</title>
+  <in-navbar xmlns="urn:iweb:">61F87F26-7E5D-4C2D-8B85-C13607851A68</in-navbar>
+  <link rel="alternate" href="Mapa2.html"/>
+  <updated>2015-02-09T20:04:43.015+01:00</updated>
+  <content>Mapa2</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:2717143B-7C54-4437-8E6F-9FAD86A0285B</id>
+  <title>Inici</title>
+  <title xmlns="urn:iweb:">Inici</title>
+  <in-navbar xmlns="urn:iweb:">2717143B-7C54-4437-8E6F-9FAD86A0285B</in-navbar>
+  <link rel="alternate" href="Inici.html"/>
+  <updated>2015-02-09T20:04:43.016+01:00</updated>
+  <content>Inici</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:EEF3EC27-75D6-4D0D-9597-52CF1709DEA8</id>
+  <title>Biografia</title>
+  <title xmlns="urn:iweb:">Biografia</title>
+  <in-navbar xmlns="urn:iweb:">EEF3EC27-75D6-4D0D-9597-52CF1709DEA8</in-navbar>
+  <link rel="alternate" href="Biografia.html"/>
+  <updated>2015-02-09T20:04:43.017+01:00</updated>
+  <content>Biografia</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:88F25381-99F0-475A-8E6E-8D73DFF1996A</id>
+  <title>Projectes</title>
+  <title xmlns="urn:iweb:">Projectes</title>
+  <in-navbar xmlns="urn:iweb:">88F25381-99F0-475A-8E6E-8D73DFF1996A</in-navbar>
+  <link rel="alternate" href="Projectes.html"/>
+  <updated>2015-02-09T20:04:43.018+01:00</updated>
+  <content>Projectes</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:1331EDC6-70FC-4357-A998-BF03DA6B5B6D</id>
+  <title>Swing 42 Cat</title>
+  <title xmlns="urn:iweb:">Swing 42 Cat</title>
+  <in-navbar xmlns="urn:iweb:">1331EDC6-70FC-4357-A998-BF03DA6B5B6D</in-navbar>
+  <link rel="alternate" href="Swing_42_Cat.html"/>
+  <updated>2015-02-09T20:04:43.019+01:00</updated>
+  <content>Swing 42 Cat</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:E64D23B4-89D6-4954-8E0D-32AD8B831906</id>
+  <title>The Damned Hellbillies Cat</title>
+  <title xmlns="urn:iweb:">The Damned Hellbillies Cat</title>
+  <in-navbar xmlns="urn:iweb:">E64D23B4-89D6-4954-8E0D-32AD8B831906</in-navbar>
+  <link rel="alternate" href="The_Damned_Hellbillies_Cat.html"/>
+  <updated>2015-02-09T20:04:43.020+01:00</updated>
+  <content>The Damned Hellbillies Cat</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:ACD75E3B-1B62-470F-9AA7-C80190F6F698</id>
+  <title>Grazztrio Cat</title>
+  <title xmlns="urn:iweb:">Grazztrio Cat</title>
+  <in-navbar xmlns="urn:iweb:">ACD75E3B-1B62-470F-9AA7-C80190F6F698</in-navbar>
+  <link rel="alternate" href="Grazztrio_Cat.html"/>
+  <updated>2015-02-09T20:04:43.021+01:00</updated>
+  <content>Grazztrio Cat</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:2D23C25B-2FA4-4988-BF7E-0E763EC96207</id>
+  <title>Contacte Cat</title>
+  <title xmlns="urn:iweb:">Contacte Cat</title>
+  <in-navbar xmlns="urn:iweb:">2D23C25B-2FA4-4988-BF7E-0E763EC96207</in-navbar>
+  <link rel="alternate" href="Contacte_Cat.html"/>
+  <updated>2015-02-09T20:04:43.022+01:00</updated>
+  <content>Contacte Cat</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:A1192111-79A1-42A3-A892-8CA6AA81E40C</id>
+  <title>Botiga</title>
+  <title xmlns="urn:iweb:">Botiga</title>
+  <in-navbar xmlns="urn:iweb:">A1192111-79A1-42A3-A892-8CA6AA81E40C</in-navbar>
+  <link rel="alternate" href="Botiga.html"/>
+  <updated>2015-02-09T20:04:43.023+01:00</updated>
+  <content>Botiga</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:AC7D224B-F5F1-46C2-9921-F968F8F7A88D</id>
+  <title>Discografia</title>
+  <title xmlns="urn:iweb:">Discografia</title>
+  <in-navbar xmlns="urn:iweb:">AC7D224B-F5F1-46C2-9921-F968F8F7A88D</in-navbar>
+  <link rel="alternate" href="Discografia_1.html"/>
+  <updated>2015-02-09T20:04:43.024+01:00</updated>
+  <content>Discografia</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:F42F411C-677F-42CA-8583-FFEEDB5733D7</id>
+  <title>Banjos &amp; Fiddles Cat</title>
+  <title xmlns="urn:iweb:">Banjos &amp; Fiddles Cat</title>
+  <in-navbar xmlns="urn:iweb:">F42F411C-677F-42CA-8583-FFEEDB5733D7</in-navbar>
+  <link rel="alternate" href="Banjos_%26_Fiddles_Cat.html"/>
+  <updated>2015-02-09T20:04:43.025+01:00</updated>
+  <content>Banjos &amp; Fiddles Cat</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:F3A076AD-9D53-4192-BDE4-EB1D198FD137</id>
+  <title>Classes Particulars</title>
+  <title xmlns="urn:iweb:">Classes Particulars</title>
+  <in-navbar xmlns="urn:iweb:">F3A076AD-9D53-4192-BDE4-EB1D198FD137</in-navbar>
+  <link rel="alternate" href="Classes_Particulars.html"/>
+  <updated>2015-02-09T20:04:43.026+01:00</updated>
+  <content>Classes Particulars</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:7FE232F2-46B2-42BC-9F24-53C0BB2D88DE</id>
+  <title>Mapa1 Cat</title>
+  <title xmlns="urn:iweb:">Mapa1 Cat</title>
+  <in-navbar xmlns="urn:iweb:">7FE232F2-46B2-42BC-9F24-53C0BB2D88DE</in-navbar>
+  <link rel="alternate" href="Mapa1_Cat.html"/>
+  <updated>2015-02-09T20:04:43.027+01:00</updated>
+  <content>Mapa1 Cat</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:341CFFDE-9D22-4472-88BF-3B9F7160704F</id>
+  <title>Mapa2 Cat</title>
+  <title xmlns="urn:iweb:">Mapa2 Cat</title>
+  <in-navbar xmlns="urn:iweb:">341CFFDE-9D22-4472-88BF-3B9F7160704F</in-navbar>
+  <link rel="alternate" href="Mapa2_Cat.html"/>
+  <updated>2015-02-09T20:04:43.028+01:00</updated>
+  <content>Mapa2 Cat</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:3E234055-656B-40FE-BA4C-3C7A6AA84259</id>
+  <title>Home</title>
+  <title xmlns="urn:iweb:">Home</title>
+  <in-navbar xmlns="urn:iweb:">3E234055-656B-40FE-BA4C-3C7A6AA84259</in-navbar>
+  <link rel="alternate" href="Home.html"/>
+  <updated>2015-02-09T20:04:43.029+01:00</updated>
+  <content>Home</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:CB43E545-64B9-4035-A3B9-A362065382E5</id>
+  <title>Biography</title>
+  <title xmlns="urn:iweb:">Biography</title>
+  <in-navbar xmlns="urn:iweb:">CB43E545-64B9-4035-A3B9-A362065382E5</in-navbar>
+  <link rel="alternate" href="Biography.html"/>
+  <updated>2015-02-09T20:04:43.030+01:00</updated>
+  <content>Biography</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:101C9F11-D67E-4AF6-B969-2E441285FA31</id>
+  <title>Projects</title>
+  <title xmlns="urn:iweb:">Projects</title>
+  <in-navbar xmlns="urn:iweb:">101C9F11-D67E-4AF6-B969-2E441285FA31</in-navbar>
+  <link rel="alternate" href="Projects.html"/>
+  <updated>2015-02-09T20:04:43.031+01:00</updated>
+  <content>Projects</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:65C20724-7FA0-4503-B508-890817E11876</id>
+  <title>Swing 42 Eng</title>
+  <title xmlns="urn:iweb:">Swing 42 Eng</title>
+  <in-navbar xmlns="urn:iweb:">65C20724-7FA0-4503-B508-890817E11876</in-navbar>
+  <link rel="alternate" href="Swing_42_Eng.html"/>
+  <updated>2015-02-09T20:04:43.032+01:00</updated>
+  <content>Swing 42 Eng</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:B306D3E7-C405-4E4F-86BE-81588627241E</id>
+  <title>The Damned Hellbillies Eng</title>
+  <title xmlns="urn:iweb:">The Damned Hellbillies Eng</title>
+  <in-navbar xmlns="urn:iweb:">B306D3E7-C405-4E4F-86BE-81588627241E</in-navbar>
+  <link rel="alternate" href="The_Damned_Hellbillies_Eng.html"/>
+  <updated>2015-02-09T20:04:43.033+01:00</updated>
+  <content>The Damned Hellbillies Eng</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:B9669394-B2CA-4FD5-BC05-B4BFEBD881D8</id>
+  <title>Grazztrio Eng</title>
+  <title xmlns="urn:iweb:">Grazztrio Eng</title>
+  <in-navbar xmlns="urn:iweb:">B9669394-B2CA-4FD5-BC05-B4BFEBD881D8</in-navbar>
+  <link rel="alternate" href="Grazztrio_Eng.html"/>
+  <updated>2015-02-09T20:04:43.034+01:00</updated>
+  <content>Grazztrio Eng</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:CC5F8B98-F64A-481D-A826-CE728B55ABAC</id>
+  <title>Discography</title>
+  <title xmlns="urn:iweb:">Discography</title>
+  <in-navbar xmlns="urn:iweb:">CC5F8B98-F64A-481D-A826-CE728B55ABAC</in-navbar>
+  <link rel="alternate" href="Discography.html"/>
+  <updated>2015-02-09T20:04:43.035+01:00</updated>
+  <content>Discography</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:EB606DD7-BB12-447A-8C1E-2058C1553299</id>
+  <title>Contact</title>
+  <title xmlns="urn:iweb:">Contact</title>
+  <in-navbar xmlns="urn:iweb:">EB606DD7-BB12-447A-8C1E-2058C1553299</in-navbar>
+  <link rel="alternate" href="Contact.html"/>
+  <updated>2015-02-09T20:04:43.036+01:00</updated>
+  <content>Contact</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:6F95BC3C-5271-4AF6-AF4B-56F8F07193CF</id>
+  <title>Store</title>
+  <title xmlns="urn:iweb:">Store</title>
+  <in-navbar xmlns="urn:iweb:">6F95BC3C-5271-4AF6-AF4B-56F8F07193CF</in-navbar>
+  <link rel="alternate" href="Store.html"/>
+  <updated>2015-02-09T20:04:43.037+01:00</updated>
+  <content>Store</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:4A0E1635-A5F2-4B3A-9576-C3BEC509A5A8</id>
+  <title>Banjos &amp; Fiddles Eng</title>
+  <title xmlns="urn:iweb:">Banjos &amp; Fiddles Eng</title>
+  <in-navbar xmlns="urn:iweb:">4A0E1635-A5F2-4B3A-9576-C3BEC509A5A8</in-navbar>
+  <link rel="alternate" href="Banjos_%26_Fiddles_Eng.html"/>
+  <updated>2015-02-09T20:04:43.038+01:00</updated>
+  <content>Banjos &amp; Fiddles Eng</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:5765984A-6D5C-4972-AB89-503045C87B63</id>
+  <title>Mapa1 Eng</title>
+  <title xmlns="urn:iweb:">Mapa1 Eng</title>
+  <in-navbar xmlns="urn:iweb:">5765984A-6D5C-4972-AB89-503045C87B63</in-navbar>
+  <link rel="alternate" href="Mapa1_Eng.html"/>
+  <updated>2015-02-09T20:04:43.039+01:00</updated>
+  <content>Mapa1 Eng</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:20C07EC5-1434-420A-9BE0-E63BDD0AB597</id>
+  <title>Mapa2 Eng</title>
+  <title xmlns="urn:iweb:">Mapa2 Eng</title>
+  <in-navbar xmlns="urn:iweb:">20C07EC5-1434-420A-9BE0-E63BDD0AB597</in-navbar>
+  <link rel="alternate" href="Mapa2_Eng.html"/>
+  <updated>2015-02-09T20:04:43.040+01:00</updated>
+  <content>Mapa2 Eng</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:A8B8E28E-4FCD-4B27-8947-686FC5B7D33A</id>
+  <title>Banjo Lessons</title>
+  <title xmlns="urn:iweb:">Banjo Lessons</title>
+  <in-navbar xmlns="urn:iweb:">A8B8E28E-4FCD-4B27-8947-686FC5B7D33A</in-navbar>
+  <link rel="alternate" href="Banjo_Lessons.html"/>
+  <updated>2015-02-09T20:04:43.041+01:00</updated>
+  <content>Banjo Lessons</content>
+ </entry>
+</feed>

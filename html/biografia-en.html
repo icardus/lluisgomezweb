@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+
+<!-- Basic Page Needs
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<meta charset="utf-8">
+<title>Lluís Gómez</title>
+<meta name="description" content="Lluís Gómez és un reconegut banjista, violinista i mandolinista. Lluís Gómez es un reconocido banjista, violinista y mandolinista. Lluís Gómez is a renowned banjo player, violinist and mandolin player.">
+<meta name="author" content="Marc Xicola, Joanra Paton">
+
+<!-- Mobile Specific Metas
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- FONT
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Rubik:300,500,700" rel="stylesheet">
+
+<!-- CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<link rel="stylesheet" href="css/lluis2019.css">
+
+<!-- Favicon
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<link rel="icon" type="image/png" href="images/favicon.png">
+
+<!-- JQuery
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<script type="text/javascript">
+
+	function parallax(){
+		var menuHeight = $('.menuFixed .menuItems').outerHeight();
+		$('.whiteFixed').height(menuHeight);
+	}
+
+	$(window).scroll(function(e){
+		parallax();
+	});
+
+	parallax();
+
+	function scrollToAnchor(aid){
+		var aTag = $("a[name='"+ aid +"']");
+		$('html,body').animate({scrollTop: aTag.offset().top - 60},'slow');
+	}
+
+</script>
+
+</head>
+
+<body>
+
+	<div class="icontent">
+
+		<div class="whiteFixed"></div>
+		<div class="menuFixed">
+			<div class="logo"><a href="index-en.html">LLUÍS GÓMEZ</a></div>
+			<div class="menuItems">
+				<a href="biografia-en.html" class="active">BIOGRAPHY</a>
+				<a href="discografia-en.html">DISCOGRAPHY</a>
+				<a href="agenda-en.html">CONCERTS</a>
+				<a href="tenda-en.html">STORE</a>
+				<a href="classes-en.html">LESSONS</a>
+				<a href="projectes-en.html">PROJECTS</a>
+<a href="flamengrass-en.html">FLAMENGRASS</a>
+				<a href="contacte-en.html">CONTACT</a>
+			</div>
+		</div>
+
+		<div class="imgFull">
+			<a href="#" onclick="scrollToAnchor('biografia'); return(false);"><img src="images/biografia.jpg" />
+			<img class="imgTitle w400" src="images/biografia-en.png" /></a>
+		</div>
+
+		<div class="textBox p0">
+			<a id="biografia" name="biografia"></a><p class="avall">Lluís Gómez is a renowned banjo player, violinist and mandolin player known inside and outside our country, as well as festival director of Al Ras and Barcelona Bluegrass Camp and a professor at the prestigious campus Virton, Belgium.</p>
+
+			<p>He has enjoyed a long career on stage and diffuse five-string banjo. His playing is a journey around various musical genres; Bluegrass, Swing, Blues, Folk and other forms of acoustic music.</p>
+
+			<p>For years he has travelled to the United States to learn it’s secrets from the most eminent banjo players in bluegrass and folk music. He composes his own music, runs workshops on the banjo and publishes articles in specialized magazines in the USA.
+
+			<p>In Spain his first teachers were Sedo García and Ricky Araiza, while in France he studied with Jean Marie Redon. He has received classes from the American banjo players Bill Keith, Tony Trischka, Pete Wernick, Noam Pikelny and Jayme Stone.</p>
+
+			<p>He has shared the stage with Bill Keith, Tony Trischka,, Jayme Stone, Alex Hargreaves, Mike Barnett, Jean Marie Redon, Tom Nechville, the Carter Brothers, Chris Luquette, Henrich Novák,  Roberto Dalla Vecchia, Jesper Rubner and Gerry O'Connor amongst others.</p>
+
+			<p>Throughout his musical career he has been in many bands playing folk, bluegrass and celtic music and recently he has played in groups which play manouche or gypsy-jazz.</p>
+
+			<p>Lluís is also the author with Toni Giménez of “Manual de iniciación al banjo de cinco cuerdas”, the very first banjo book written in Spanish and Catalan, and also in both languages too, with Oriol Saña, author of a book to learn bluegrass fiddle.</p>
+			<p>&nbsp;</p>
+
+			<p class="frase">"Lluís composes his own music and is, as you might suspect, a very accomplished banjoist who can blend bluegrass, gypsy jazz (Manouche) and his own scintillating stylings."<br />
+			Tony Trischka</p>
+			<p class="frase">"Lluís music is balanced. It is reminiscent of Bluegrass yet is somehow beyond; Fresh and original, yet holds just enough common ground with tradition."<br />
+			Tom Nechville</p>
+			<p class="frase">"Lluís Gómez is a very talented banjo player with original musical ideas that are easy to enjoy."<br />
+			Pete Wernick</p>
+			<p class="frase">"Lluís Gómez’s tunes and tasteful spin on the 5-string banjo turns ears, A wonderful journey through the gamut of new acoustic stylings, with some creative Iberian spice!"<br />
+			Jake Schepps</p>
+			<p class="frase">"Lluís Gómez is the Spanish king of the 5 string banjo. With a keen ear
+			for melody and technique to spare, Lluís forges a musical path all his
+			own and the result is a delight. I’m proud to call to him my banjo
+			brother."<br />
+			Alison Brown</p>
+		</div>
+
+		<div class="peu">
+			<a href="index-en.html"><img src="images/peu.png" width="54" height="54" /></a>
+		</div>
+	</div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+
+<!-- Basic Page Needs
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<meta charset="utf-8">
+<title>Lluís Gómez</title>
+<meta name="description" content="Lluís Gómez és un reconegut banjista, violinista i mandolinista. Lluís Gómez es un reconocido banjista, violinista y mandolinista. Lluís Gómez is a renowned banjo player, violinist and mandolin player.">
+<meta name="author" content="Marc Xicola, Joanra Paton">
+
+<!-- Mobile Specific Metas
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- FONT
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Rubik:300,500,700" rel="stylesheet">
+
+<!-- CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<link rel="stylesheet" href="css/lluis.css">
+
+<!-- Favicon
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<link rel="icon" type="image/png" href="images/favicon.png">
+
+<!-- JQuery
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<script type="text/javascript">
+
+	function parallax(){
+		var scrolled = $(window).scrollTop();
+		$('.image').css('top', (scrolled * 0.4) + 'px');
+		$('.lluis').css('bottom', 30+(scrolled * 0.4) + 'px');
+		var elementOffset = $('.content').offset().top;
+		var distance = (elementOffset - scrolled);
+		if (distance < 0){
+/*			$('.menu').css('position', 'fixed');
+			$('.menu').css('top', '0');
+			$('.menu').css('right', '0');	*/
+			$('.menu').css('visibility', 'hidden');
+			$('.menuFixed').css('visibility', 'visible');
+			$('.whiteFixed').css('visibility', 'visible');
+			var menuHeight = $('.menuFixed .menuItems').outerHeight();
+			$('.whiteFixed').height(menuHeight);
+		} else {
+/*			$('.menu').css('position', '');
+			$('.menu').css('top', '');
+			$('.menu').css('right', '');	*/
+			$('.menu').css('visibility', 'visible');
+			$('.menuFixed').css('visibility', 'hidden');
+			$('.whiteFixed').css('visibility', 'hidden');
+		}
+	}
+
+	$(window).scroll(function(e){
+		parallax();
+	});
+
+	parallax();
+
+	function scrollToAnchor(aid){
+		var aTag = $("a[name='"+ aid +"']");
+		$('html,body').animate({scrollTop: aTag.offset().top},'slow');
+	}
+
+	function scrollToTop(){
+		$('html,body').animate({scrollTop: 0},'slow');
+	}
+
+
+</script>
+
+</head>
+
+<body>
+
+	<div class="image" style="background-image: url(./images/lluis2021.jpg);"><a href="#" onclick="scrollToAnchor('inici'); return(false);">
+		<div class="lluis"><img src="images/lluis.png" /></div>
+	</a></div>
+
+	<div class="idiomes"><a href="index.html"><img src="images/cat-on.jpg" /></a> &nbsp; <a href="index-es.html"><img src="images/cast.jpg" onmouseover="this.src='images/cast-on.jpg'" onmouseout="this.src='images/cast.jpg'"; /></a> &nbsp; <a href="index-en.html"><img src="images/eng.jpg" onmouseover="this.src='images/eng-on.jpg'" onmouseout="this.src='images/eng.jpg'"; /></div>
+
+	<div class="content">
+
+		<div class="whiteFixed"></div>
+		<div class="menuFixed">
+			<div class="logo"><a href="#" onclick="scrollToTop(); return(false);">LLUÍS GÓMEZ</a></div>
+			<div class="menuItems">
+				<a href="biografia.html">BIOGRAFIA</a>
+				<a href="discografia.html">DISCOGRAFIA</a>
+				<a href="agenda.html">AGENDA</a>
+				<a href="tenda.html">TENDA</a>
+				<a href="classes.html">CLASSES</a>
+				<a href="projectes.html">PROJECTES</a>
+				<a href="flamengrass.html">FLAMENGRASS</a>
+				<a href="contacte.html">CONTACTE</a>
+			</div>
+		</div>
+
+		<div class="menu">
+			<div class="logo"><a href="#" onclick="scrollToTop(); return(false);">LLUÍS GÓMEZ</a></div>
+			<a href="biografia.html">BIOGRAFIA</a>
+			<a href="discografia.html">DISCOGRAFIA</a>
+			<a href="agenda.html">AGENDA</a>
+			<a href="tenda.html">TENDA</a>
+			<a href="classes.html">CLASSES</a>
+			<a href="projectes.html">PROJECTES</a>
+<a href="flamengrass.html">FLAMENGRASS</a>
+			<a href="contacte.html">CONTACTE</a>
+		</div>
+		
+		<div style="margin-top: 50px;"><a id="inici" name="inici"></a></div>
+
+		<div class="textBox">
+			<h1 class="rubikl"><strong>LLUÍS</strong>GÓMEZ<strong>MÚSICA</strong></h1>
+			<p class="avall">Benvinguts a la meva pàgina web. Aquí pots trobar més informació sobre el que he estat fent en el passat i els projectes futurs. Potser vols saber si tocaré aviat aprop de la teva ciutat o simplement llegir detalls interessants sobre les meves inquietuts musicals.</p>
+			<p>Atentament,<br />
+			Lluís Gómez</p>
+		</div>
+
+		<div class="button"><a href="biografia.html">LLEGIR BIOGRAFIA</a></div>
+
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+
+		<div class="peu">
+			<a href="#" onclick="scrollToTop(); return(false);"><img src="images/peu.png" width="54" height="54" /></a>
+		</div>
+	</div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

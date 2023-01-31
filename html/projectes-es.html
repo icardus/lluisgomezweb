@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+
+<!-- Basic Page Needs
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<meta charset="utf-8">
+<title>Lluís Gómez</title>
+<meta name="description" content="Lluís Gómez és un reconegut banjista, violinista i mandolinista. Lluís Gómez es un reconocido banjista, violinista y mandolinista. Lluís Gómez is a renowned banjo player, violinist and mandolin player.">
+<meta name="author" content="Marc Xicola, Joanra Paton">
+
+<!-- Mobile Specific Metas
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- FONT
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Rubik:300,500,700" rel="stylesheet">
+
+<!-- CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<link rel="stylesheet" href="css/lluis2019.css">
+
+<!-- Favicon
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<link rel="icon" type="image/png" href="images/favicon.png">
+
+<!-- JQuery
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<script type="text/javascript">
+
+	function parallax(){
+		var menuHeight = $('.menuFixed .menuItems').outerHeight();
+		$('.whiteFixed').height(menuHeight);
+	}
+
+	$(window).scroll(function(e){
+		parallax();
+	});
+
+	parallax();
+
+	function scrollToAnchor(aid){
+		var aTag = $("a[name='"+ aid +"']");
+		$('html,body').animate({scrollTop: aTag.offset().top - 60},'slow');
+	}
+
+</script>
+
+</head>
+
+<body>
+
+	<div class="icontent">
+
+		<div class="whiteFixed"></div>
+		<div class="menuFixed">
+			<div class="logo"><a href="index-es.html">LLUÍS GÓMEZ</a></div>
+			<div class="menuItems">
+				<a href="biografia-es.html">BIOGRAFÍA</a>
+				<a href="discografia-es.html">DISCOGRAFÍA</a>
+				<a href="agenda-es.html">AGENDA</a>
+				<a href="tenda-es.html">TIENDA</a>
+				<a href="classes-es.html">CLASES</a>
+				<a href="projectes-es.html" class="active">PROYECTOS</a>
+				<a href="flamengrass-es.html">FLAMENGRASS</a>
+				<a href="contacte-es.html">CONTACTO</a>
+			</div>
+		</div>
+
+		<div class="imgFull">
+			<a href="#" onclick="scrollToAnchor('discografia'); return(false);"><img src="images/triobn.jpg" />
+			<!--<img class="imgTitle w400" src="images/discografia.png" />--></a>
+		</div>
+
+		<div class="textBox p0">
+			<a id="discografia" name="discografia"></a><h1 class="rubik">PROYECTOS</h1>
+			<p style="text-align: center;">Varios formatos disponibles, solista, duo, trio, cuarteto y más si es necesario. Un amplio abanico musical, <em>Folk, Bluegrass, Blues, Swing, Jazz</em>... siempre adaptándose al tipo de concierto que se requiere, sesiones pedagógicas, festivales, locales...</p>
+			
+			<p style="text-align: center;">Dispongo de equipo de sonido propio e incluso la posibilidad de tocar en formato acústico sin ningún tipo de amplificación.</p>
+		</div>
+		
+		<div class="projecteR">	
+			<div class="projecteCL">
+				<h2>Solista</h2>
+				<p>Un banjo, mandolina y mi violín, temas cantados e instrumentales, amplio repertorio.</p>
+				<p><a href="https://youtu.be/336pP1HczHQ" target="_blank"><img src="images/play.png" width="20" style="position: relative; top: 3px;" /> &nbsp; Ver vídeo 1</a></p>
+				<p><a href="https://youtu.be/oEbf5ZO_x2g" target="_blank"><img src="images/play.png" width="20" style="position: relative; top: 3px;" /> &nbsp; Ver vídeo 2</a></p>
+				<p>&nbsp;</p>
+			</div>
+			<div class="projecteCR psolista">
+				<img src="images/solista.jpg" />
+			</div>
+		</div>
+
+		<div class="projecteS"> &nbsp; </div>
+
+		<div class="projecteR">	
+			<div class="projecteCL">
+				<h2>Dúos</h2>
+				<p>Amplia variedad a la hora de escoger, a dúo con el armonicista <strong>Joan Pau Cumellas</strong> o la contrabajista <strong>Maribel Rivero</strong>.</p>
+				<p><a href="https://youtu.be/oQI9EBa4A6Q" target="_blank"><img src="images/play.png" width="20" style="position: relative; top: 3px;" /> &nbsp; Ver vídeo 1</a></p>
+				<p><a href="https://youtu.be/gO7VX4ck-mY" target="_blank"><img src="images/play.png" width="20" style="position: relative; top: 3px;" /> &nbsp; Ver vídeo 2</a></p>
+				<p>&nbsp;</p>
+			</div>
+			<div class="projecteCR pduets">
+				<img src="images/duets1.jpg" /> &nbsp; <img src="images/duets2.jpg" />
+			</div>
+		</div>
+
+		<div class="projecteS"> &nbsp; </div>
+
+		<div class="projecteR">	
+			<div class="projecteCL">
+				<h2>Trío</h2>
+				<p>Un formato muy ameno y divertido con la violinista <strong>Carol Duran</strong> y la contrabajista <strong>Maribel Rivero</strong>.</p>
+				<p><a href="https://youtu.be/rx3EPeFTOIQ" target="_blank"><img src="images/play.png" width="20" style="position: relative; top: 3px;" /> &nbsp; Ver vídeo 1</a></p>
+				<p><a href="https://youtu.be/FBGILAWfs0c" target="_blank"><img src="images/play.png" width="20" style="position: relative; top: 3px;" /> &nbsp; Ver vídeo 2</a></p>
+				<p>&nbsp;</p>
+			</div>
+			<div class="projecteCR ptrio">
+				<img src="images/trio1.jpg" />
+			</div>
+		</div>
+
+		<div class="projecteS"> &nbsp; </div>
+
+		<div class="projecteR">	
+			<div class="projecteCL">
+				<h2>Barcelona Bluegrass Band</h2>
+				<p>Una banda con más de diez años de historia y muchos escenarios a sus espaldas, tres CDs editados y actuaciones alrededor del mundo.</p>
+				<p><a href="https://youtu.be/6NGMUfP1Gg0" target="_blank"><img src="images/play.png" width="20" style="position: relative; top: 3px;" /> &nbsp; Ver vídeo 1</a></p>
+				<p><a href="https://youtu.be/gIiipsqZy8A" target="_blank"><img src="images/play.png" width="20" style="position: relative; top: 3px;" /> &nbsp; Ver vídeo 2</a></p>
+				<p>&nbsp;</p>
+			</div>
+			<div class="projecteCR pbbb">
+				<img src="images/bbb.jpg" />
+			</div>
+		</div>
+
+		<div class="projecteS"> &nbsp; </div>
+
+		<div class="projecteR">	
+			<div class="projecteCL">
+				<h2>Gipsy Jazz</h2>
+				<p>Manouche o Gipsy Jazz es una música acústica creada por el genial guitarrista <strong>Django Reinhardt</strong>, un Jazz muy fresco y fácil de escuchar. Formaciones a trío y cuarteto con el guitarrista <strong>Valentí Moya</strong>.</p>
+				<p><a href="https://youtu.be/kVEs6uuQqeY" target="_blank"><img src="images/play.png" width="20" style="position: relative; top: 3px;" /> &nbsp; Ver vídeo 1</a></p>
+				<p><a href="https://youtu.be/1Bg9rB0YzbI" target="_blank"><img src="images/play.png" width="20" style="position: relative; top: 3px;" /> &nbsp; Ver vídeo 2</a></p>
+				<p>&nbsp;</p>
+			</div>
+			<div class="projecteCR pgipsy">
+				<img src="images/gipsy.jpg" />
+			</div>
+		</div>
+
+		<div class="projecteS"> &nbsp; </div>
+
+		<!--<div class="projecteR">	
+			<div class="projecteCL">
+				<h2>New Year's Eve Band</h2>
+				<p>Formación a quinteto con músicos de reconocido prestigio, <strong>Josep Traver</strong> (Andrea Motis), <strong>Carol Duran</strong> (La Carrau, Sabor de Gràcia), <strong>Marta Roma</strong> (Jarabe de Palo, Guillem Roma), <strong>Lluís Gómez </strong>(Barcelona Bluegrass Band) y <strong>Maribel Rivero</strong> (Violines, Arnau Tordera).<br />
+				Amplio repertorio que va desde el Blues a la música celta, pasando por el Bluegrass, Swing, y donde predominan las armonías vocales.</p>
+				
+				<p>&nbsp;</p>
+			</div>
+			<div class="projecteCR pgipsy">
+				<img src="images/newyears.jpg" />
+			</div>
+		</div>
+
+		<div class="projecteS"> &nbsp; </div>-->
+
+		<div class="peu">
+			<a href="index-es.html"><img src="images/peu.png" width="54" height="54" /></a>
+		</div>
+	</div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
